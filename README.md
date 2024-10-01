@@ -29,6 +29,7 @@ You need to create a new project (namespace) to host your application. Run the c
 ```bash
 oc new-project crud-app
 ```
+![](images/11.jpg)
 
 Or, create the project in the web console:
 
@@ -48,6 +49,8 @@ This command will:
 - Create a new app (`new-app`) using the `nodejs` builder image.
 - Clone the source code from the provided GitHub repository.
 - Name the application `crud-sample`.
+
+![](images/12.jpg)
 
 ### Step 4: Monitor the Build and Deployment
 
@@ -82,8 +85,11 @@ Once the route is created, run the following command to get the application URL:
 ```bash
 oc get route
 ```
+![](images/13.jpg)
 
 Use the URL displayed in the output to open the application in your browser. The URL will look like `http://crud-sample-crud-app.<base_domain>`.
+
+![](images/14.jpg)
 
 ### Step 7: Test the CRUD Functionality
 
